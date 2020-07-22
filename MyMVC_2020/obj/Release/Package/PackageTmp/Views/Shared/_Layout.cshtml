@@ -1,0 +1,16 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>_Layout</title>
+    @RenderSection("styles", required: false)
+</head>
+<body>
+    <h1>Mstaer Page=_Layout</h1>
+    <div>
+        @RenderBody()
+    </div>
+    @RenderSection("scripts", required: true)
+</body>
+</html>
